@@ -18,7 +18,7 @@
 
 
 <script type="text/javascript">
-	// main list05
+	// iso list05
 </script>
 
 
