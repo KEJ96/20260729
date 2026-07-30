@@ -18,8 +18,6 @@
 
 
 <script type="text/javascript">
-	// iso-20260720-1650 001
-	//
 </script>
 
 
@@ -109,10 +107,7 @@
 		</table>
 	</div>
 </form:form>
-<script type="text/javascript">
-	// iso-20260720-1650 002
-	//
-</script>
+
 <div class="paging_area">
 	<ul class="paging">
 		<ui:pagination paginationInfo="${searchVO.paginationInfo }" type="image" jsFunction="goPage"/>
