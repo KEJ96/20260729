@@ -17,7 +17,11 @@
 <c:url var="insertUrl" value="insert.do"></c:url>
 
 <script type="text/javascript">
+<<<<<<< HEAD
 	// main 001
+=======
+	// main test 001
+>>>>>>> ac564c74c964cb417f795383132fb2e399b722ad
 </script>
 
 <form:form modelAttribute="searchVO" action="${listUrl }" method="get" onsubmit="return doSubmit()" cssClass="searchForm">
