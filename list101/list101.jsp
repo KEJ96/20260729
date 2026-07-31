@@ -18,6 +18,7 @@
 
 <script type="text/javascript">
 	// iso test 001
+	// main 001
 </script>
 
 <form:form modelAttribute="searchVO" action="${listUrl }" method="get" onsubmit="return doSubmit()" cssClass="searchForm">
