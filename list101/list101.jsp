@@ -18,7 +18,6 @@
 
 <script type="text/javascript">
 	// iso test 001
-	// main 001
 </script>
 
 <form:form modelAttribute="searchVO" action="${listUrl }" method="get" onsubmit="return doSubmit()" cssClass="searchForm">
@@ -33,14 +32,14 @@
 				<col width="35%" />
 			</colgroup>
 			<tr>
-				<th scope="row">결재�무</th>
+				<th scope="row">결재무</th>
 				<td>
 					<form:select path="searchApvlType">
-						<form:option value="">�체</form:option>
+						<form:option value="">체</form:option>
 						<form:options items="${apvlTypeList}" itemLabel="catNm" itemValue="catCd" />
 					</form:select>
 				</td>
-				<th scope="row">문서�/th>
+				<th scope="row">문서먯th>
 				<td>
 					<form:input path="searchApvlTitl" />
 					<div class="btn_search01">
@@ -53,7 +52,7 @@
 
 	<div class="button_area">
 		<div style="float:left">
-			�체 <strong><c:out value="${searchVO.paginationInfo.totalRecordCount }" /></strong>�nbsp;
+			체 <strong><c:out value="${searchVO.paginationInfo.totalRecordCount }" /></strong>갮bsp;
 		</div>
 		<form:select path="paginationInfo.recordCountPerPage" onchange="changeRecodeCount()">
 			<form:option value="15">15</form:option>
@@ -75,13 +74,13 @@
 				<col width="10%" />
 			</colgroup>
 			<tr>
-				<th scope="col">�번</th>
+				<th scope="col">번</th>
 				<th scope="col">구분</th>
-				<th scope="col">문서�/th>
+				<th scope="col">문서먯th>
 				<th scope="col">기안/th>
-				<th scope="col">기안�자</th>
+				<th scope="col">기안¼자</th>
 				<th scope="col">반려/th>
-				<th scope="col">반려�자</th>
+				<th scope="col">반려¼자</th>
 			</tr>
 			<c:choose>
 				<c:when test="${list eq null or empty list }">
@@ -120,7 +119,7 @@ $(document).ready(function(){
 
 $(document).bind('deptSelect', setDept);
 
-//부�정볤정
+//부정볤정
 function setDept(evt){
 	dept_setSearchDeptData(evt.procType, evt.dept);
 }
