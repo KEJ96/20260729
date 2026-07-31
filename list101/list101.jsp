@@ -17,7 +17,6 @@
 <c:url var="insertUrl" value="insert.do"></c:url>
 
 <script type="text/javascript">
-	// iso test 001
 	// main 001
 </script>
 
