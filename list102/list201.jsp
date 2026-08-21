@@ -9,7 +9,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <spring:message var="datePattern" code="message.format.date.pattern"></spring:message>
-
+121121212
 <c:set var="listparam" value="${cf:queryString(param,'paginationInfo.currentPageNo') }"  />
 <c:set var="detailparam" value="${cf:queryString(param,'') }"  />
 <c:url var="excelUrl" value="listExcel.do?${listparam }" />
